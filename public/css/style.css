@@ -1,0 +1,126 @@
+form {
+    padding:10px;
+    margin:10px;
+}
+
+.message-area {
+    padding:10px;
+    margin:10px;
+    border:solid 2pt green;
+}
+
+.message-catcher {
+    border:solid 2pt blue;
+    /* width:60%; */
+    height:43vh;
+    margin:10px;
+}
+
+.users-list {
+    border:solid 2pt purple;
+    /* width:340px; */
+    height:43vh;
+    margin:10px;
+    padding:0;
+}
+
+.users-list ul {
+    height:38vh;
+    margin:5px;
+}
+
+ul {
+    padding:10px;
+}
+
+h5 , h3{
+    text-align:center;
+}
+
+.space {
+    color:#fff;
+}
+
+.server-message-div {
+    margin:10px;
+    border:solid 1pt transparent;
+    border-radius:10px;
+    box-shadow: 10px 10px 5px rgb(200,190,150);
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.server-message {
+    margin:10px;
+    border:solid 1pt transparent;
+    border-radius:10px;
+    box-shadow: 10px 10px 5px rgb(200,190,150);
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+.server-message-close-button {
+    padding:10px;
+}
+
+.close-button {
+    position:relative;
+}
+
+.reg-success, .log-success , .reg-error, .log-error, .server-information-message {
+    margin:10px;
+    border:solid 1pt transparent;
+    border-radius:10px;
+    /* box-shadow: 10px 10px 5px rgb(200,190,150); */
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.time-stamp {
+    font-style: ;'
+    font-family: cursive, fantasy, "Brush Script MT", "Segoe UI", Futura, Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Palatino Linotype", "Book Antiqua", Palatino, Copperplate, "Copperplate Gothic Light";
+}
+
+#error, #success {
+    margin:10px;
+    border-radius:6px;
+}
+
+
+
+@media (max-width:830px) {
+  
+}
+
+@media (max-width:775px) {
+   .message-catcher,
+   .users-list {
+       float:none;
+       display:block;
+   }
+}
+
+@media (max-width:599px) {
+   .message-catcher,
+   .users-list {
+       float:none;
+       display:block;
+   }
+}
+
+@media (max-width:480px) {
+   .message-catcher,
+   .users-list {
+       float:none;
+       display:block;
+   }
+}
+
+@media (max-width:360px) {
+   .message-catcher,
+   .users-list {
+       float:none;
+       display:block;
+   }
+}
