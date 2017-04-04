@@ -1,6 +1,6 @@
 <h1>Web Chat Demo</h1>
 
-<p>Cloned from <a href="https://github.com/quauab/ChatDemo2.git">original project</a>, this version uses Foundation front-end.</p>
+<p>Cloned from <a href="https://github.com/quauab/WebChatDemoApp.git">original project</a>, this version uses Foundation front-end.</p>
 
 ```bash
 # Installation
